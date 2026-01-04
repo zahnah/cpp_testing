@@ -1,0 +1,7 @@
+# MODULE.bazel
+
+# Choose the most recent version available at
+# https://registry.bazel.build/modules/googletest
+module(name = "my-module", version = "1.0")
+
+bazel_dep(name = "googletest", version = "1.17.0")
