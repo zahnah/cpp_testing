@@ -1,1 +1,3 @@
-bazel-*
+# Build output directories created by CMake
+build/
+cmake-build-*/
